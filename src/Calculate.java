@@ -18,4 +18,15 @@ public class Calculate {
 		}
 	}
 	
+	public String projectA() {
+		String[] name = {"zero","one","two","three","four","five","six","seven","eight","nine","ten"};
+		if(this.isOverNumber(number) == true) {
+			return name[this.number];
+		}else {
+			return "error";
+		}
+		
+		
+	}
+	
 }
