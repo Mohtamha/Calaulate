@@ -18,4 +18,18 @@ public class Calculate {
 		}
 	}
 	
+	public  String projectb() {
+		String[] month = {"January","February","March","Apirll","March","June","July","August","September","October","November","Desember"};
+		if(this.isOverNumber(number) == true) {
+			return month[this.number];
+			
+		}else {
+			return "invalid";
+		}
+			 
+
+		}
+
+
+	
 }
